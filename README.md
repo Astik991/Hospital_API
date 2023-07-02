@@ -13,11 +13,11 @@ npm install
 npm start
 ```
 6. Create a `.env` file in the root directory with the following environment variables: -
-    - `PORT=3000`
+    - `PORT=6000`
     - `MONGODB_URI=<your_mongodb_uri>`
     - `JWT_SECRET=<your_jwt_secret>`
 7. Start the server: `npm start`
-8. Open the app in your web browser at `http://localhost:3000`
+8. Open the app in your web browser at `http://localhost:6000`
 
 That's it! You should now have the CN Hospital API app up and running on your local machine.
 
@@ -37,7 +37,7 @@ CN Hospital API requires the following dependencies:
 9. Then open the Postman and check connecting the routes as follows:
     Note: All the routes written below must be added after the following address:
    ```
-   http://localhost:3000
+   http://localhost:6000
    ```
 ## API Routes
 
